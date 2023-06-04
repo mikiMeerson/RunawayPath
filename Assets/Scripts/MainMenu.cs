@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public class MainMenu : MonoBehaviour
 {
     public Transform playerTransform;
-    public Transform[] coinTransforms;
+    public GameObject[] coins;
 
     private Vector3 playerInitialPosition;
     private Quaternion playerInitialRotation;
@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour
 
         VisualElement root = GetComponent<UIDocument>().rootVisualElement;
 
-        Button restartGame = root.Q<Button>("startGame");
+        Button startGame = root.Q<Button>("startGame");
         Button quitGame = root.Q<Button>("quitGame");
 
 
@@ -27,13 +27,12 @@ public class MainMenu : MonoBehaviour
         playerInitialPosition = playerTransform.position;
         playerInitialRotation = playerTransform.rotation;
 
-        coinInitialPositions = new Vector3[coinTransforms.Length];
-        for (int i = 0; i < coinTransforms.Length; i++)
+        for (int i = 0; i < coins.Length; i++)
         {
-            coinInitialPositions[i] = coinTransforms[i].position;
+            coins[i].SetActive(true);
         }
 
-        restartGame.clicked += () => {
+        startGame.clicked += () => {
             Debug.Log("startGame button");
 
             gameObject.SetActive(false);
@@ -41,13 +40,6 @@ public class MainMenu : MonoBehaviour
             // Reset player position and rotation
             playerTransform.position = playerInitialPosition;
             playerTransform.rotation = playerInitialRotation;
-
-            // Reset coin positions
-            for (int i = 0; i < coinTransforms.Length; i++)
-            {
-                coinTransforms[i].position = coinInitialPositions[i];
-                coinTransforms[i].gameObject.SetActive(true);
-            }
 
             // Hide the cursor when the game starts
             UnityEngine.Cursor.lockState = CursorLockMode.Locked;

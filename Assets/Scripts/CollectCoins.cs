@@ -28,7 +28,7 @@ public class CollectCoins : MonoBehaviour
             }
 
             // Destroy the coin game object
-            Destroy(col.gameObject);
+            col.gameObject.SetActive(false);
 
             if (coins == 1)
             {

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2720.413, g: 2633.3223, b: 2905.414, a: 1}
+  m_IndirectSpecularColor: {r: 2685.5098, g: 2569.459, b: 2774.0547, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2884,6 +2884,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 577650739}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!114 &404936967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3694,7 +3706,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &569937807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3740,12 +3752,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 1519505479}
-  coinTransforms:
-  - {fileID: 2066803990}
-  - {fileID: 838622967}
-  - {fileID: 1102227620}
-  - {fileID: 23905794}
-  - {fileID: 1159419666}
+  coins:
+  - {fileID: 526495940}
+  - {fileID: 404936965}
+  - {fileID: 750625341}
+  - {fileID: 1150426088}
+  - {fileID: 663792674}
 --- !u!114 &577650739 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7227873132632746903, guid: 4ef192302d3dc3e449f79b45f4e9f6b6,
@@ -4162,6 +4174,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 1252437775}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!135 &663792677
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4609,12 +4633,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 1519505479}
-  coinTransforms:
-  - {fileID: 2066803990}
-  - {fileID: 838622967}
-  - {fileID: 1102227620}
-  - {fileID: 23905794}
-  - {fileID: 1159419666}
+  coins:
+  - {fileID: 526495940}
+  - {fileID: 404936965}
+  - {fileID: 750625341}
+  - {fileID: 1150426088}
+  - {fileID: 663792674}
 --- !u!114 &696524533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4724,7 +4748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 287, y: 110}
+  m_AnchoredPosition: {x: 411, y: 83}
   m_SizeDelta: {x: 170, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734397703
@@ -5033,6 +5057,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 1679044134}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!135 &750625344
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5605,6 +5641,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 1603896966}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!1001 &860806534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6884,6 +6932,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 2124735715}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!1 &1021729948
 GameObject:
   m_ObjectHideFlags: 0
@@ -6901,7 +6961,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1021729949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6947,12 +7007,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 1519505479}
-  coinTransforms:
-  - {fileID: 2066803990}
-  - {fileID: 838622967}
-  - {fileID: 1102227620}
-  - {fileID: 23905794}
-  - {fileID: 1159419666}
+  coins:
+  - {fileID: 526495940}
+  - {fileID: 404936965}
+  - {fileID: 750625341}
+  - {fileID: 1150426088}
+  - {fileID: 663792674}
 --- !u!1 &1032884261
 GameObject:
   m_ObjectHideFlags: 0
@@ -8097,6 +8157,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 1064286902}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!135 &1150426091
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8590,6 +8662,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 1856994458}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!135 &1252446948
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9292,6 +9376,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 2074060848}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!1 &1410290147
 GameObject:
   m_ObjectHideFlags: 0
@@ -10314,6 +10410,18 @@ MonoBehaviour:
   isPlayer: 1
   minimapIcon: {fileID: 1521283559}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!114 &1519505472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12404,6 +12512,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 1985647047}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!1 &1855487444
 GameObject:
   m_ObjectHideFlags: 0
@@ -13286,6 +13406,18 @@ MonoBehaviour:
   isPlayer: 0
   minimapIcon: {fileID: 603642079}
   minimapCamera: {fileID: 683698010}
+  objectsToInclude:
+  - {fileID: 1252446945}
+  - {fileID: 404936964}
+  - {fileID: 750625340}
+  - {fileID: 1150426087}
+  - {fileID: 663792673}
+  - {fileID: 1850424230}
+  - {fileID: 857234728}
+  - {fileID: 1397514884}
+  - {fileID: 1965342311}
+  - {fileID: 999168554}
+  - {fileID: 1519505479}
 --- !u!1 &1973987209 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 883120403653017633, guid: b47483c1fe9f22546bca092055b64778,
