@@ -7,20 +7,38 @@ public class CollectCoins : MonoBehaviour
 {
     public int coins;
     public TextMeshProUGUI coinText;
+    public GameObject victoryMenu;
+    public GameObject loseMenu;
 
     public void OnTriggerEnter(Collider col)
     {
         Debug.Log("Trigger!");
         if (col.gameObject.tag == "Coin")
         {
-            Debug.Log("Collected a coin!");
+            // Get the MinimapObject component attached to the coin
+            MinimapObject minimapObject = col.GetComponent<MinimapObject>();
             coins = coins + 1;
-            Destroy(col.gameObject);
             coinText.text = "Collected Coins: " + coins.ToString() + "/5";
+
+            // Check if the MinimapObject component exists
+            if (minimapObject != null)
+            {
+                // Mark the coin as destroyed
+                minimapObject.DestroyObject();
+            }
+
+            // Destroy the coin game object
+            Destroy(col.gameObject);
+
+            if (coins == 1)
+            {
+                victoryMenu.SetActive(true);
+            }
         }
         else if (col.gameObject.tag == "Guard")
         {
             Debug.Log("Busted!");
+            loseMenu.SetActive(true);
         }
     }
 }

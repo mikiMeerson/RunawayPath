@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/buttonStyle.uss?fileID=7433441132597879392&amp;guid=55d232168af2ca34aa2c0c03d74e6796&amp;type=3#buttonStyle" />
+    <ui:VisualElement style="height: 478px; align-items: center; justify-content: center;">
+        <ui:VisualElement style="height: 389px; width: 441px; justify-content: center; align-items: center; background-color: rgba(0, 153, 255, 0.24); border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+            <ui:Label text="Oops..." display-tooltip-when-elided="true" style="-unity-font-style: bold-and-italic; color: rgb(255, 255, 255); -unity-text-align: upper-center; font-size: 56px; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(255, 255, 255);" />
+            <ui:Label text=" Better luck next time..." display-tooltip-when-elided="true" style="-unity-font-style: normal; color: rgb(255, 194, 0); -unity-text-align: upper-center; font-size: 20px; -unity-text-outline-width: 2px; -unity-text-outline-color: rgb(255, 255, 255);" />
+            <ui:Button text="Start Over" display-tooltip-when-elided="true" name="startGame" class="buttonStyle" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="quitGame" class="buttonStyle" style="height: 54px; width: 178px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); background-color: rgba(255, 255, 255, 0.69); font-size: 24px; -unity-font-style: bold; -unity-font: resource(&apos;FlatSkin/Font/Roboto-Italic&apos;); -unity-font-definition: initial; color: rgb(0, 135, 255); margin-top: 20px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

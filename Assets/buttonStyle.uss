@@ -1,0 +1,59 @@
+.buttonStyle:hover {
+    height: 54px;
+    width: 178px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.69);
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-font: resource('FlatSkin/Font/Roboto-Italic');
+    -unity-font-definition: initial;
+    color: rgb(24, 70, 221);
+    margin-top: 20px;
+}
+
+.buttonStyle {
+    height: 54px;
+    width: 178px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.69);
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-font: resource('FlatSkin/Font/Roboto-Italic');
+    -unity-font-definition: initial;
+    color: rgb(0, 135, 255);
+    margin-top: 20px;
+}
+
+.buttonStyle:active {
+    height: 54px;
+    width: 178px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-color: rgba(11, 152, 255, 0.69);
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-font: resource('FlatSkin/Font/Roboto-Italic');
+    -unity-font-definition: initial;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
