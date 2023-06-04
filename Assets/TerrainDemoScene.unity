@@ -4750,7 +4750,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 411, y: 83}
+  m_AnchoredPosition: {x: 425, y: 200}
   m_SizeDelta: {x: 170, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734397703
@@ -5244,7 +5244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 235.01593, y: -51.370407}
+  m_AnchoredPosition: {x: 235.01593, y: -51.370422}
   m_SizeDelta: {x: 432.8889, y: 64.7408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &788227908
@@ -10038,7 +10038,7 @@ Canvas:
   m_GameObject: {fileID: 1471305977}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -10482,7 +10482,7 @@ MonoBehaviour:
   coinText: {fileID: 788227908}
   victoryMenu: {fileID: 1021729948}
   loseMenu: {fileID: 569937805}
-  coinVictoryAmount: 2
+  coinVictoryAmount: 5
 --- !u!4 &1519505479 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544,
@@ -12199,7 +12199,7 @@ PrefabInstance:
     - target: {fileID: 4416926081852918491, guid: 64dce48905ffd9b4293e595fa6941544,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.75
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 4416926081852918493, guid: 64dce48905ffd9b4293e595fa6941544,
         type: 3}
