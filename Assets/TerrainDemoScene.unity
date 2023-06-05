@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2685.5098, g: 2569.459, b: 2774.0547, a: 1}
+  m_IndirectSpecularColor: {r: 2688.1055, g: 2573.037, b: 2780.3828, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14773,6 +14773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SkyFog
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861995814432371674, guid: 9f6962fe5015c5d4183396bd9864cdec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3861995814432371675, guid: 9f6962fe5015c5d4183396bd9864cdec,
         type: 3}
