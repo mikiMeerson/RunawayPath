@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject playerObject;
     public GameObject[] coins;
+    public Canvas uiCanvas;
 
     private Vector3 playerInitialPosition;
     private Quaternion playerInitialRotation;
@@ -26,6 +27,7 @@ public class MainMenu : MonoBehaviour
         playerInitialRotation = playerObject.transform.rotation;
 
         playerObject.SetActive(false);
+        uiCanvas.gameObject.SetActive(false);
 
         startGame.clicked += () => {
             Debug.Log("startGame button");
@@ -42,6 +44,7 @@ public class MainMenu : MonoBehaviour
             }
             
             playerObject.SetActive(true);
+            uiCanvas.gameObject.SetActive(true);
 
             // Hide the cursor when the game starts
             UnityEngine.Cursor.lockState = CursorLockMode.Locked;

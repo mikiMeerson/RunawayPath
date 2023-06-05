@@ -9,6 +9,7 @@ public class LoseMenu : MonoBehaviour
     public GameObject[] coins;
     public Vector3 playerInitialPosition;
     public Quaternion playerInitialRotation;
+    public Canvas uiCanvas;
 
     void OnEnable()
     {
@@ -21,6 +22,7 @@ public class LoseMenu : MonoBehaviour
         Button quitGame = root.Q<Button>("quitGame");
 
         playerObject.SetActive(false);
+        uiCanvas.gameObject.SetActive(false);
 
         startGame.clicked += () => {
             Debug.Log("startGame button");
@@ -37,6 +39,7 @@ public class LoseMenu : MonoBehaviour
             }
 
             playerObject.SetActive(true);
+            uiCanvas.gameObject.SetActive(true);
 
             // Hide the cursor when the game starts
             UnityEngine.Cursor.lockState = CursorLockMode.Locked;
