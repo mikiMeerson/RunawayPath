@@ -36,8 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/LoseMenu.cs" />
      <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs" />
      <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs" />
+     <Compile Include="Assets/Scripts/MainMenu.cs" />
      <Compile Include="Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs" />
      <Compile Include="Assets/Scripts/Guard.cs" />
      <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs" />
@@ -51,6 +53,7 @@
      <Compile Include="Assets/PlayerController.cs" />
      <Compile Include="Assets/Scripts/MinimapObject.cs" />
      <Compile Include="Assets/Scripts/TerrainTreeToggle.cs" />
+     <Compile Include="Assets/Scripts/VictoryMenu.cs" />
      <None Include="Assets/Notes/Stamps.txt" />
      <None Include="Assets/ThirdPartyNotices.txt" />
      <None Include="Assets/TextMeshPro/Shaders/TextMeshPro/TMPro.cginc" />
@@ -62,8 +65,11 @@
      <None Include="Assets/TextMeshPro/Shaders/TextMeshPro/TMPro_Mobile.cginc" />
      <None Include="Assets/TextMeshPro/Shaders/TextMeshPro/TMP_SDF SSD.shader" />
      <None Include="Assets/Scripts/Resources/SceneAnnotation.uxml" />
+     <None Include="Assets/buttonStyle.uss" />
      <None Include="Assets/TextMeshPro/Shaders/TextMeshPro/TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets/Notes/Layers.txt" />
+     <None Include="Assets/LoseMenu.uxml" />
+     <None Include="Assets/MainMenu.uxml" />
      <None Include="Assets/Notes/Welcome.txt" />
      <None Include="Assets/TextMeshPro/Shaders/TextMeshPro/TMP_SDF-Surface.shader" />
      <None Include="Assets/TextMeshPro/Shaders/TextMeshPro/TMP_Bitmap-Custom-Atlas.shader" />
@@ -82,6 +88,7 @@
      <None Include="Assets/TextMeshPro/Shaders/TextMeshPro/TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets/TextMeshPro/Fonts/License.txt" />
      <None Include="Assets/Notes/Tiles.txt" />
+     <None Include="Assets/VictoryMenu.uxml" />
      <None Include="Assets/TextMeshPro/Shaders/TextMeshPro/TMP_SDF Overlay.shader" />
      <None Include="Assets/Notes/SkyboxAssets.txt" />
      <None Include="Assets/TextMeshPro/Shaders/TextMeshPro/TMP_Bitmap-Mobile.shader" />
